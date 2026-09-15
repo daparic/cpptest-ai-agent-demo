@@ -33,7 +33,7 @@ class ATM
        	Account* myCurrentAccount;
         Bank* myBank;
         BaseDisplay* myDisplay;
-
+        int n = 0;
 };
 
 #endif // ATM_HXX
