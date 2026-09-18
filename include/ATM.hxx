@@ -21,7 +21,7 @@ class ATM
         };
 
         ATM(Bank* bank, BaseDisplay* display);
-        void viewAccount(int accountNumber, const string& password);
+        void viewAccount(int accountNumber, string password);
         void fillUserRequest(UserRequest request, double amount);
 
     private:
@@ -34,6 +34,7 @@ class ATM
         Bank* myBank;
         BaseDisplay* myDisplay;
         int flag = 0;
+	int coord = 1.23;
 
 };
 
