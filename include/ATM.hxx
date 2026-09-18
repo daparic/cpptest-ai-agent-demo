@@ -34,6 +34,7 @@ class ATM
         Bank* myBank;
         BaseDisplay* myDisplay;
         int flag = 0;
+	int coord = 1.23;
 
 };
 
