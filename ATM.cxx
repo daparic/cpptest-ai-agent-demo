@@ -1,6 +1,8 @@
 #include "ATM.hxx"
 #include "BaseDisplay.hxx"
 
+// add comment
+
 ATM::ATM(Bank* bank, BaseDisplay* display) : myCurrentAccount(nullptr)
 {
     myBank = bank;
